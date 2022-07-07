@@ -7,7 +7,6 @@
 h1, h2, nav{
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
-    color: #e4ffa7;
 }
 p{
     font-family: 'Karma', serif;
@@ -27,8 +26,158 @@ nav a:hover{
     text-decoration: none;
     color: #444c32;
 }
+
+.active{
+    color: #444c32 !important;
+}
+
+.location-paragraph{
+    color: #e4ffa7;
+}
+
+.main-name{
+    color: #e4ffa7;
+}
+
 main{
+    background-color: #e4ffa7;
+}
+.full-width-section{
     background-color:#ca9aff;
     height: 600px;
 }
+
+.name-section{
+    height: 600px;
+    text-align: end;
+}
+.name-section h1{
+    font-size: 100px;
+}
+.letter-outline{
+    -webkit-text-fill-color: #ca9aff; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
+.name-section p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.featured-container{
+    margin-top: 40px;
+}
+
+.featured-projects{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.featured-projects h1{
+    font-size: 60px;
+}
+
+.featured-project-picture{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 400px;
+}
+
+.featured-project-picture:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+footer{
+    height: 150px;
+    background-color: #ca9aff;
+}
+
+.social-icons{
+    text-align: center;
+}
+
+.social-icons i{
+    color: #ffffff;
+    margin: 60px 10px 24px 10px;
+}
+
+.social-icons i:hover{
+    color: #e4ffa7;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+footer p{
+    text-align: center;
+    color: #ffffff;
+}
+
+footer p a{
+    color: #e4ffa7;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+footer p a:hover{
+    color: #e4ffa7;
+}
+
+@media only screen and (max-width: 600px) {
+    .name-section h1{
+        font-size: 40px;
+    }
+    .name-section p{
+        font-size: 20px;
+    }
+    .full-width-section{
+        background-color:#ca9aff;
+        height: 260px;
+    }
+    .featured-project-picture{
+        margin: 24px;
+        max-width: 200px;
+    }
+    .featured-container img{
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .featured-container img{
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}
+/*-------------------------------------------------Work-Page------------------------------------------------------------*/
+.project-1,
+.project-2,
+.project-3{
+    height: 600px;
+}
+.project-2{
+    background-color: #ca9aff;
+}
+
+.featured-projects h1{
+    text-align: center;
+    color: #ca9aff;
+}
+
+.project-picture img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/*-------------------------------------------------Contact-Page----------------------------------------------------------*/
+.contact-main-section{
+    height: 600px;
+    background-color: #ca9aff;
+}
+.contact-heading{
+    color: #e4ffa7;
+    text-align: center;
+    font-size: 60px;
+}
+
 

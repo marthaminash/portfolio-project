@@ -75,6 +75,8 @@ main{
 
 .featured-projects h1{
     font-size: 60px;
+    text-align: center;
+    color: #ca9aff;
 }
 
 .featured-project-picture{
@@ -152,22 +154,17 @@ footer p a:hover{
     }
 }
 /*-------------------------------------------------Work-Page------------------------------------------------------------*/
-.project-1,
-.project-2,
-.project-3{
-    height: 600px;
-}
-.project-2{
-    background-color: #ca9aff;
-}
-
-.featured-projects h1{
-    text-align: center;
-    color: #ca9aff;
-}
-
-.project-picture img{
+.project-picture {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.heading-my-works{
+    color: #ca9aff;
+    text-align: center;
+    font-size: 60px;
+}
+.project-picture:hover{
+    opacity: 0.4;
+    cursor: pointer;
 }
 /*-------------------------------------------------Contact-Page----------------------------------------------------------*/
 .contact-main-section{

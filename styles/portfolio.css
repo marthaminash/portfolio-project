@@ -167,14 +167,50 @@ footer p a:hover{
     cursor: pointer;
 }
 /*-------------------------------------------------Contact-Page----------------------------------------------------------*/
-.contact-main-section{
-    height: 600px;
+.contact-section{
     background-color: #ca9aff;
+    height: 620px;
 }
-.contact-heading{
+
+.contact-me-heading{
+    font-size: 60px;
     color: #e4ffa7;
     text-align: center;
-    font-size: 60px;
+}
+
+.contact-footer{
+    background-color: #e4ffa7;
+    color: #727f53;
+}
+.contact-section h2{
+    color: #ffffff;
+}
+
+.contact-footer i,
+.contact-footer a,
+.contact-footer p{
+    color: #727f53;
+}
+
+.contact-footer i:hover,
+.contact-footer a:hover,
+.contact-footer p:hover{
+    color: #444c32;
+}
+.wrapper{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper a{
+    color: #e4ffa7;
+}
+
+.wrapper a:hover{
+    color: #e4ffa7;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
 }
 
 

@@ -146,7 +146,13 @@ footer p a:hover{
     .featured-container img{
         margin: 0 auto;
     }
-}
+
+    .call-to-action-block{
+        height: 180px;
+    }
+    .talk-btn a{
+        margin-left: 18px;
+    }}\
 @media only screen and (max-width: 992px) {
     .featured-container img{
         margin: 0 auto;
@@ -226,7 +232,8 @@ footer p a:hover{
     padding: 5px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .call-to-action-block h3{
     font-family: 'Bebas Neue', cursive;
@@ -254,4 +261,3 @@ footer p a:hover{
     text-decoration: none;
     transition: 0.2s ease-in-out;
 }
-

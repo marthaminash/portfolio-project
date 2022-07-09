@@ -184,6 +184,11 @@ footer p a:hover{
 }
 .contact-section h2{
     color: #ffffff;
+    margin-top: 20px;
+}
+
+.contact-section h3{
+    margin: 20px;
 }
 
 .contact-footer i,
@@ -213,4 +218,40 @@ footer p a:hover{
     font-size: 16px;
 }
 
+.call-to-action-block{
+    width: 60%;
+    background-color: #e4ffa7;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.call-to-action-block h3{
+    font-family: 'Bebas Neue', cursive;
+    color: #727f53;
+    font-size: 40px;
+}
+
+.talk-btn{
+    margin-top: 32px;
+}
+
+.talk-btn a{
+    background-color: #ca9aff;
+    padding: 16px;
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 20%;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.talk-btn a:hover{
+    background-color: #727f53;
+    color: #e4ffa7;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
 
